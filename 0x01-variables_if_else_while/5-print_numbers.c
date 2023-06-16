@@ -9,9 +9,9 @@ int main(void)
 int letter;
 for (letter = 0; letter <= 10; letter++)
 {
-putchar(letter);
+printf("%d", letter);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
 
