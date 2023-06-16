@@ -26,5 +26,9 @@ if (last < 6 && last > 0)
 {
 printf("is less than 6 and not 0\n");
 }
+if (last < 0)
+{
+printf("is less than 6 and not 0\n");
+}
 return (0);
 }
