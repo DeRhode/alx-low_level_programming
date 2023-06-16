@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="main.c" gcc -S -masm=intel -o "${CFILE%.*}.s" "$CFILE"
+gcc -S -masm=intel -fno-asynchronous-unwind-tables -o "${CFILE%.c}.s" "$CFILE"
