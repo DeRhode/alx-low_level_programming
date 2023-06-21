@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-int putchar(void);
+int prof(void);
 void print_alphabet(void);
 int print_alphabet_x10(void);
 int _islower(int c);
