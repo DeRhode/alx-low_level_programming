@@ -12,7 +12,6 @@ int print_last_digit(int n)
 if (n == INT_MIN)
 {
 n = 8;
-/* _putchar('-'); */
 }
 else
 {
