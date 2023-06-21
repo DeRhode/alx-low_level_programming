@@ -28,8 +28,8 @@ if (n >= 98)
 printf(",");
 printf(" ");
 }
-printf(" ");
 }
+printf(" ");
 }
 else
 {
@@ -41,7 +41,7 @@ if (n <= 98)
 printf(",");
 printf(" ");
 }
-printf(" ");
 }
+printf(" ");
 }
 }
