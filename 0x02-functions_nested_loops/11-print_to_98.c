@@ -34,7 +34,7 @@ else
 while(n <= 98)
 {
 printf("%d", n++);
-if(n != 98)
+if(n <=97)
 {
 printf(", ");
 }
