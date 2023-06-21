@@ -12,5 +12,5 @@ void print_times_table(int n);
 int add(int, int);
 int print_sign(int n);
 int _abs(int);
-int print_last_cost(int n);
+int print_last_digit(int n);
 #endif /* MAIN_H */
