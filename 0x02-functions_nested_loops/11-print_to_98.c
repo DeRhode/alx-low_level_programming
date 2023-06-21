@@ -28,7 +28,7 @@ if (n >= 98)
 printf(",");
 printf(" ");
 }
-print(" ");
+printf(" ");
 }
 }
 else
