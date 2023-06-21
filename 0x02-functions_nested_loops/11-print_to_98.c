@@ -18,7 +18,8 @@
  */
 void print_to_98(int n)
 {
-_putchar('0' + n);
+int m = n;
+_putchar('0' + m);
 _putchar(',');
 _putchar(' ');
 }
