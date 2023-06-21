@@ -26,6 +26,7 @@ prod = num * mult;
 if (prod <= 99)
 {
 _putchar(' ');
+_putchar(' ');
 }
 if (prod >= 100)
 {
