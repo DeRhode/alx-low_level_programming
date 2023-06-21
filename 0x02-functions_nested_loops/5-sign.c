@@ -23,5 +23,4 @@ else
 _putchar('-');
 _putchar('1');
 }
-return (0);
 }
