@@ -24,6 +24,7 @@ else
 _putchar('0' + (result / 10));
 _putchar('0' + (result % 10));
 }
+_putchar(',');
 _putchar(' ');
 }
 _putchar('\n');
