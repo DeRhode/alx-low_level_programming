@@ -38,7 +38,6 @@ else if (prod <= 99 && prod >= 10)
 _putchar('0' + (prod / 10));
 }
 _putchar('0' + (prod % 10));
-_putchar(' ');
 }
 _putchar('\n');
 }
