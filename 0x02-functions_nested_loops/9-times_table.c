@@ -17,7 +17,7 @@ int result = i * j;
 if (j < 9)
 {
 _putchar(',');
-_putcar(' ');
+_putchar(' ');
 }
 if (result < 10)
 {
