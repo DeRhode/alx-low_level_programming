@@ -25,7 +25,8 @@ while(n >= 98)
 printf("%d", n--);
 if (n != 99)
 {
-printf(", ");
+printf(",");
+printf(' ');
 }
 }
 }
@@ -36,7 +37,8 @@ while(n <= 98)
 printf("%d", n++);
 if(n <= 98)
 {
-printf(", ");
+printf(",");
+printf(' ');
 }
 }
 }
