@@ -16,12 +16,11 @@ return (n > 0);
 if (n == 0)
 {
 _putchar('0');
-return (n > 0);
+return (0);
 }
 else
 {
 _putchar('-');
 _putchar('1');
 }
-return (' ');
 }
