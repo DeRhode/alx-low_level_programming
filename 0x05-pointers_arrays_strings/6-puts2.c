@@ -18,7 +18,12 @@ return;
 while (str[i] != '\0')
 {
 putchar(str[i]);
-i += 2;
+i += 1;
+if (str[i] == '\0')
+{
+break;
+}
+i++;
 }
 putchar('\n');
 }
