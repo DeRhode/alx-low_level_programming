@@ -10,10 +10,6 @@
  */
 int _sqrt_recursion(int n)
 {
-int m;
-int start = 1;
-int end = n;
-int result = -1;
 if (n < 0)
 {
 return (-1);
@@ -22,22 +18,34 @@ if (n == 0 || n == 1)
 {
 return (n);
 }
-while (start <= end)
+return (sqrtHelper(n, 1, n));
+}
+/**
+ *sqrtHelper - Write a function that returns
+ *the natural square root of a number.
+ * @n: number
+ * @start: starting
+ * @end: ending
+ *
+ *Return: Always 0
+ */
+int sqrtHelper(int n, int start, int end)
 {
-m = (start + end) / 2;
-if (m *m == n)
+int m = (start + end) / 2;
+if (start > end)
+{
+return (-1);
+}
+if (m * m == n)
 {
 return (m);
 }
 if (m <= n / m)
 {
-start = m + 1;
-result = m;
+return (sqrtHelper(n, m + 1, end));
 }
 else
 {
-end = m - 1;
+return (sqrtHelper(n, start, m - 1));
 }
-}
-return (result);
 }
