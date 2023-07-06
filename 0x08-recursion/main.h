@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+int wildcmp(char *s1, char *s2);
 int sqrtHelper(int n, int start, int end);
 int is_prime_recursive(int n, int divisor);
 void _puts_recursion(char *s);
