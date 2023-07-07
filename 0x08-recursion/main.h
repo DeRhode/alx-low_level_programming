@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+int check_palindrome(char *s, int start, int end);
+int check_palindrome(char *s, int start, int end);
 int wildcmp(char *s1, char *s2);
 int sqrtHelper(int n, int start, int end);
 int is_prime_recursive(int n, int divisor);
