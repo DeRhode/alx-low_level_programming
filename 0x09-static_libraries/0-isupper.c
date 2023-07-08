@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isupper - Entry point
- * @c: first
+ * _isupper - entry point
+ * @c: argument
  *
  * Return: Always 0
  */

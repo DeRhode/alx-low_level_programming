@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _puts - Entry point
- * @s: Entry
+ * _isdigit - entry
+ * @c: argument
  *
  * Return: Always 0
  */
-void _puts(char *s)
+int _isdigit(int c)
 {
+return (0);
 }
