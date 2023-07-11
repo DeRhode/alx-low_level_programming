@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _stdup - duplicating t a new memory location
+ * _strdup - duplicating t a new memory location
  * @str: character
  *
  * Return: always 0
@@ -21,7 +21,7 @@ while (str[c] != '\0')
 {
 	c++;
 }
-a =malloc(sizeof(char) * (c + 1));
+a = malloc(sizeof(char) * (c + 1));
 if (a == NULL)
 {
 	return (NULL);
@@ -30,5 +30,5 @@ for (x = 0; str[x]; x++)
 {
 	a[x] = str[x];
 }
-	return (a);
+return (a);
 }
