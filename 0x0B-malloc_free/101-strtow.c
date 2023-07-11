@@ -37,41 +37,29 @@ char **strtow(char *str)
 char **matrix, *word_start;
 int i, words, count, word_len;
 if (str == NULL || *str == '\0')
-{
-return (NULL);
-}
+	return (NULL);
 words = count_word(str);
 if (words == 0)
-{
-return (NULL);
-}
+	return (NULL);
 matrix = malloc(sizeof(char *) * (words + 1));
 if (matrix == NULL)
-{
-return (NULL);
-}
+	return (NULL);
 count = 0;
 while (*str)
 {
 if (*str == ' ')
-{
-str++;
-}
+	str++;
 else
 {
 word_start = str;
 while (*str != ' ' && *str != '\0')
-{
-str++;
-}
+	str++;
 word_len = str - word_start;
 matrix[count] = malloc(sizeof(char) * (word_len + 1));
 if (matrix[count] == NULL)
 {
 for (i = 0; i < count; i++)
-{
-free(matrix[i]);
-}
+	free(matrix[i]);
 free(matrix);
 return (NULL);
 }
