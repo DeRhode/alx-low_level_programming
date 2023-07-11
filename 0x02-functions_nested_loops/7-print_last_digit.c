@@ -22,6 +22,6 @@ n = -n;
 }
 }
 n = n  % 10;
-_putchar('0' + n);
+putchar('0' + n);
 return (n);
 }

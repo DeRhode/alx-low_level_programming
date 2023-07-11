@@ -16,23 +16,23 @@ for (j = 0; j <= 9; j++)
 int result = i * j;
 if (result < 10)
 {
-_putchar(' ');
-_putchar('0' + result);
+putchar(' ');
+putchar('0' + result);
 }
 else
 {
-_putchar('0' + (result / 10));
-_putchar('0' + (result % 10));
+putchar('0' + (result / 10));
+putchar('0' + (result % 10));
 }
 if (j < 9)
 {
-_putchar(',');
-_putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
 if (i != 9)
 {
-_putchar('\n');
+putchar('\n');
 }
 }
 }
