@@ -17,16 +17,21 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error\n")
+		printf("Error\n");
 			return (98);
 	}
 	x = atoi(argv[1]);
 	y = atoi(argv[3]);
-	operation = get_op_func(argv[2]);
+	*operation = get_op_func(argv[2]);
 	if (operation == NULL)
 	{
 		printf("Error\n");
 		return (99);
+	}
+	if (*argv[2] == '/' || (*argv[2] == '%' && y == 0))
+	{
+		printf("Error\n");
+		return (100);
 	}
 	z = operation(x, y);
 	printf("%d\n", z);
