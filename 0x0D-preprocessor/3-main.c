@@ -6,6 +6,10 @@
  * Return: always 0
  */
 int main(void)
-{
-return (0);
+{	int i, j;
+	
+	i = (ABS(-98)) * 10;
+	j = (ABS(98)) * 10;
+	printf("%d, %d\n", i, j);
+	return (0);
 }
