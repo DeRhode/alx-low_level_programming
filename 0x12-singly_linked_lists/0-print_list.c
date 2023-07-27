@@ -2,7 +2,7 @@
 #include "lists.h"
 #include <stddef.h>
 /**
- * size_t print_list -  a function that prints all
+ * print_list -  a function that prints all
  * the elements of a list_t list.
  * @h: A pointer to the values of list_t
  *
